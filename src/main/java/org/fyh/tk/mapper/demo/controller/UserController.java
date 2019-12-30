@@ -41,4 +41,10 @@ public class UserController {
         userService.update(id, phone);
         return "ok";
     }
+
+    @RequestMapping("page")
+    public String page(int pageNum, int pageSize){
+        userService.page(pageNum, pageSize);
+        return "ok";
+    }
 }
