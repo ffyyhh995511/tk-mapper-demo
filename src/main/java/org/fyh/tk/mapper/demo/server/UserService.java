@@ -21,8 +21,9 @@ public class UserService {
     UserMapper userMapper;
 
     public void add(User user){
-        user.setPhone("15912312311");
+        user.setPhone("15912312323");
         userMapper.insertSelective(user);
+        log.info("自增id:{}", user.getId().toString());
     }
 
     public User get(int id){

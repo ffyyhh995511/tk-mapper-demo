@@ -9,6 +9,7 @@ public class User {
      * 用户表
      */
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     /**
