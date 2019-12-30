@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.fyh.tk.mapper.demo.mapper.ResumeMapper">
+  <resultMap id="BaseResultMap" type="org.fyh.tk.mapper.demo.enter.Resume">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="nick_name" jdbcType="VARCHAR" property="nickName" />
+    <result column="chenghu" jdbcType="VARCHAR" property="chenghu" />
+    <result column="birthday" jdbcType="DATE" property="birthday" />
+    <result column="age" jdbcType="SMALLINT" property="age" />
+    <result column="constellation" jdbcType="VARCHAR" property="constellation" />
+    <result column="height" jdbcType="INTEGER" property="height" />
+    <result column="province" jdbcType="VARCHAR" property="province" />
+    <result column="city" jdbcType="VARCHAR" property="city" />
+    <result column="education" jdbcType="SMALLINT" property="education" />
+    <result column="sex" jdbcType="SMALLINT" property="sex" />
+    <result column="state" jdbcType="SMALLINT" property="state" />
+    <result column="salary_min" jdbcType="INTEGER" property="salaryMin" />
+    <result column="salary_max" jdbcType="INTEGER" property="salaryMax" />
+    <result column="marry_state" jdbcType="SMALLINT" property="marryState" />
+    <result column="child_state" jdbcType="SMALLINT" property="childState" />
+    <result column="marry_time" jdbcType="SMALLINT" property="marryTime" />
+    <result column="pdesc" jdbcType="VARCHAR" property="pdesc" />
+    <result column="sweet_words" jdbcType="VARCHAR" property="sweetWords" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="is_del" jdbcType="SMALLINT" property="isDel" />
+    <result column="home_province" jdbcType="VARCHAR" property="homeProvince" />
+    <result column="home_city" jdbcType="VARCHAR" property="homeCity" />
+    <result column="weight" jdbcType="SMALLINT" property="weight" />
+    <result column="somke" jdbcType="SMALLINT" property="somke" />
+    <result column="drink" jdbcType="SMALLINT" property="drink" />
+    <result column="family_order" jdbcType="SMALLINT" property="familyOrder" />
+    <result column="parent_state" jdbcType="SMALLINT" property="parentState" />
+    <result column="tryst" jdbcType="VARCHAR" property="tryst" />
+    <result column="admin_id" jdbcType="INTEGER" property="adminId" />
+    <result column="warn_msg" jdbcType="VARCHAR" property="warnMsg" />
+    <result column="auth_state" jdbcType="INTEGER" property="authState" />
+    <result column="user_tag" jdbcType="SMALLINT" property="userTag" />
+    <result column="recheck_auth_identity" jdbcType="SMALLINT" property="recheckAuthIdentity" />
+    <result column="recheck_auth_zhima" jdbcType="SMALLINT" property="recheckAuthZhima" />
+    <result column="recheck_auth_video" jdbcType="SMALLINT" property="recheckAuthVideo" />
+    <result column="cancel_video_auth" jdbcType="SMALLINT" property="cancelVideoAuth" />
+    <result column="cancel_zhima_auth" jdbcType="SMALLINT" property="cancelZhimaAuth" />
+    <result column="cancel_identity_auth" jdbcType="SMALLINT" property="cancelIdentityAuth" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="h5_profession" jdbcType="VARCHAR" property="h5Profession" />
+    <result column="nationality" jdbcType="VARCHAR" property="nationality" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    id, nick_name, chenghu, birthday, age, constellation, height, province, city, education, 
+    sex, state, salary_min, salary_max, marry_state, child_state, marry_time, pdesc, 
+    sweet_words, remark, is_del, home_province, home_city, weight, somke, drink, family_order, 
+    parent_state, tryst, admin_id, warn_msg, auth_state, user_tag, recheck_auth_identity, 
+    recheck_auth_zhima, recheck_auth_video, cancel_video_auth, cancel_zhima_auth, cancel_identity_auth, 
+    create_time, update_time, h5_profession, nationality
+  </sql>
+</mapper>

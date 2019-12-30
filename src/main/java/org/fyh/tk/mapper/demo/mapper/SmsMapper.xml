@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.fyh.tk.mapper.demo.mapper.SmsMapper">
+  <resultMap id="BaseResultMap" type="org.fyh.tk.mapper.demo.enter.Sms">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="code" jdbcType="CHAR" property="code" />
+    <result column="type" jdbcType="SMALLINT" property="type" />
+    <result column="end_time" jdbcType="TIMESTAMP" property="endTime" />
+    <result column="platform_type" jdbcType="SMALLINT" property="platformType" />
+    <result column="state" jdbcType="SMALLINT" property="state" />
+    <result column="is_send" jdbcType="VARCHAR" property="isSend" />
+    <result column="extra_code" jdbcType="CHAR" property="extraCode" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    id, phone, code, type, end_time, platform_type, state, is_send, extra_code, create_time
+  </sql>
+</mapper>
