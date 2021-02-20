@@ -1,5 +1,6 @@
-package org.fyh.tk.mapper.demo.server;
+package org.fyh.tk.mapper.demo.service;
 
+import org.fyh.tk.mapper.demo.annotation.FyhService;
 import org.fyh.tk.mapper.demo.enter.Resume;
 import org.fyh.tk.mapper.demo.mapper.ResumeMapper;
 import org.springframework.stereotype.Service;
@@ -12,7 +13,7 @@ import javax.annotation.Resource;
  * @Description
  * @time 2019/12/30 14:14
  */
-@Service
+@FyhService
 public class ResumeService {
 
     @Resource

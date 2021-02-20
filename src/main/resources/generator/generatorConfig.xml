@@ -22,8 +22,8 @@
 
         <!--数据库连接 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://120.27.130.173:4408/yiban_refactor" userId="root"
-                        password="yiban1314123456">
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/test" userId="root"
+                        password="0000">
         </jdbcConnection>
         <!--默认false Java type resolver will always use java.math.BigDecimal if
             the database column is of type DECIMAL or NUMERIC. -->
@@ -48,7 +48,11 @@
         <!--对应数据库表 mysql可以加入主键自增 字段命名 忽略某字段等 -->
         <!--<table tableName="user" domainObjectName="User" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" />-->
         <!--<table tableName="sms" domainObjectName="Sms" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" />-->
-        <table tableName="resume" domainObjectName="Resume" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" >
+        <!--<table tableName="resume" domainObjectName="Resume" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" >
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>-->
+
+        <table tableName="photo" domainObjectName="Photo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" >
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>
 

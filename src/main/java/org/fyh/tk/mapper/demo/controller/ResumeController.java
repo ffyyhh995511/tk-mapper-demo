@@ -1,7 +1,7 @@
 package org.fyh.tk.mapper.demo.controller;
 
 import org.fyh.tk.mapper.demo.enter.Resume;
-import org.fyh.tk.mapper.demo.server.ResumeService;
+import org.fyh.tk.mapper.demo.service.ResumeService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

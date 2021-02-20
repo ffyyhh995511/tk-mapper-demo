@@ -1,7 +1,8 @@
-package org.fyh.tk.mapper.demo.server;
+package org.fyh.tk.mapper.demo.service;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import lombok.extern.slf4j.Slf4j;
+import org.fyh.tk.mapper.demo.annotation.FyhService;
 import org.fyh.tk.mapper.demo.enter.User;
 import org.fyh.tk.mapper.demo.mapper.UserMapper;
 import org.springframework.stereotype.Service;
@@ -13,7 +14,7 @@ import javax.annotation.Resource;
  * @Description
  * @time 2019/12/12 0:17
  */
-@Service
+@FyhService
 @Slf4j
 public class UserService {
 

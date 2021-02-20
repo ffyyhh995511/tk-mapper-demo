@@ -1,7 +1,7 @@
 package org.fyh.tk.mapper.demo.controller;
 
 import org.fyh.tk.mapper.demo.enter.User;
-import org.fyh.tk.mapper.demo.server.UserService;
+import org.fyh.tk.mapper.demo.service.UserService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
